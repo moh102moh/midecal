@@ -1,0 +1,52 @@
+npm init -y 
+y الهدف منها لتخطي جميع الاسئلة 
+وهي لتنزيل النود جي اس 
+npm install express mongoose bcryptjs jsonwebtoken dotenv cors
+express: لربط المسارات الباك ايند
+mongoose: اتصال بقادعة البيانات
+bcryptjs:تشفير كلمات المرور في قاعدة البيانات
+jsonwebtoken: لحماية الصفحات يعني مابصير يدخل قبل مايسجل دخول
+dotenv: لاضافة المتغيرات المفاتيح 
+cors:للربط الفرونت بلباك ايند
+
+npm install --save-dev nodemon هي لتخلي لسيرفر شغال
+
+npm run dev لتشغيل المشروع 
+
+database :engmohamadali102
+9aLkeYFmcs8OWPCY
+
+
+ahmad122sj
+
+لرفع الصور في داتا بيز والعمل عليها بنزل مكتبة 
+npm install multer
+
+
+هاد الكود تبعها مع الصور نسخ لصق
+const storage = multer.diskStorage({
+  destination: function (req, file, cb) {
+    cb(null, '/tmp/my-uploads')
+  },
+  filename: function (req, file, cb) {
+    const uniqueSuffix = Date.now() + '-' + Math.round(Math.random() * 1E9)
+    cb(null, file.fieldname + '-' + uniqueSuffix)
+  }
+})
+
+const upload = multer({ storage: storage })
+
+
+
+
+
+مكتبات الفرونت ايند 
+
+1- npm i create-react-app frontend
+2- cd frontend للدخول لجذر المشروع
+3- npm i react-router-dom لانشاء روابط للصفحات
+4- npm i axios من أجل عرض البيانات والارسال والحذف والتعديل هي لل api
+5- npm install -D tailwindcss@3 
+6- npx tailwindcss init
+
+7- npm install react-slick slick-carousel
