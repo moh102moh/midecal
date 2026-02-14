@@ -20,7 +20,7 @@ import photo13 from '../img/13.jpg';
 import photo14 from '../img/14.jpg';
 import photo15 from '../img/15.jpg';
 import photo16 from '../img/16.jpg';
-import photo17 from '../img/17.jpg';
+
 
 const roomData = [
   {
