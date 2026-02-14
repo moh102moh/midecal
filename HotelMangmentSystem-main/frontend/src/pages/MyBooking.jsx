@@ -1,7 +1,8 @@
 import React, { useContext, useEffect, useState } from "react";
 import { AuthContext } from "../components/context/AuthContext";
 import "../css/myBooking.css";
-import { FiCalendar, FiHome, FiCheckCircle, FiXCircle, FiLoader } from "react-icons/fi";
+import { FiCalendar, FiHome, FiCheckCircle, FiXCircle } from "react-icons/fi";
+
 
 function MyBooking() {
   const { user } = useContext(AuthContext);
